@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "dsrmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Tinted Glass Decrease Sensor Range",
+  "description": "Some block decrease sensor range, just Tinted Glass until now, lol. Later I you try to add the option to other blocks.",
   "authors": [
-    "Turnip Labs"
+    "Deive The Dev"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"deivethedev.dsrmod.DSRMod"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"deivethedev.dsrmod.DSRMod"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"deivethedev.dsrmod.DSRMod"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"deivethedev.dsrmod.DSRMod"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "dsrmod.mixins.json"
   ],
 
   "depends": {
